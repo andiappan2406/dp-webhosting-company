@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DP Host - Cloud Web Hosting & Instant Domain Registration Company</title>
+  <meta name="description" content="Register your ideal domain (.com, .ai, .io, .cloud) with free WHOIS privacy and launch on ultra-fast NVMe cloud hosting powered by LiteSpeed Enterprise, Anycast DNS, and 99.99% uptime guarantee.">
+  <meta name="keywords" content="web hosting, domain registration, buy domain, cloud hosting, vps hosting, litespeed, cheap domains, whois privacy, dp host">
+  
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="DP Host - Cloud Web Hosting & Instant Domain Registrar">
+  <meta property="og:description" content="Next-Gen cloud hosting & domain registration company. Sub-second load times, free SSL, and 24/7 human engineer support.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero_datacenter.jpg">
+
+  <!-- Core & Component Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar" id="site-navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brand-logo" aria-label="DP Host Homepage">
+        <div class="logo-icon-wrapper">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            <path d="M18 6h.01M18 18h.01"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span>DP HOST</span>
+          <span>Cloud & Domains</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#domains-section" class="nav-link">Domains</a></li>
+          <li><a href="#hosting-plans" class="nav-link">Web Hosting</a></li>
+          <li><a href="#infrastructure" class="nav-link">Infrastructure</a></li>
+          <li><a href="#tld-explorer" class="nav-link">Pricing & TLDs</a></li>
+          <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Theme, Currency, Cart, Login -->
+      <div class="nav-actions">
+        <!-- Currency Dropdown -->
+        <div class="control-pill" title="Select Currency">
+          <span>🌐</span>
+          <select class="currency-select" id="currency-select" aria-label="Select Currency">
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="INR">INR (₹)</option>
+          </select>
+        </div>
+
+        <!-- Dark/Light Theme Switcher -->
+        <button class="control-pill" id="theme-toggle-btn" aria-label="Toggle Theme Mode">
+          <span id="theme-toggle-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Cart Button -->
+        <button class="cart-btn" id="open-cart-btn" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+
+        <!-- Login / Portal Button -->
+        <button class="btn btn-secondary btn-sm" id="open-login-btn">
+          <span>Client Portal</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section hero-section" id="hero-section">
+      <div class="container hero-grid">
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            <span>All Global Cloud Clusters Operational (99.99%)</span>
+          </div>
+
+          <h1 class="hero-title">
+            Next-Gen <span class="text-gradient">Cloud Web Hosting</span> & Instant Domain Buying
+          </h1>
+
+          <p class="hero-desc">
+            Accelerate your online presence with NVMe-powered cloud hosting and seamless domain registration. 
+            Enjoy LiteSpeed Enterprise servers, HTTP/3, free WHOIS privacy, and automated daily backups.
+          </p>
+
+          <!-- Interactive Live Domain Search Component -->
+          <div class="domain-search-wrapper" id="domains-section">
+            <form class="domain-search-form" id="domain-search-form">
+              <div class="domain-input-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+
+              <input 
+                type="text" 
+                class="domain-input" 
+                id="domain-input" 
+                placeholder="Find your dream domain (e.g. yourbrand or startup)" 
+                autocomplete="off"
+                spellcheck="false"
+                required
+              >
+
+              <select class="domain-tld-select" id="domain-tld-select" aria-label="Domain Extension">
+                <option value=".com">.com ($9.99)</option>
+                <option value=".ai">.ai ($49.99)</option>
+                <option value=".io">.io ($29.99)</option>
+                <option value=".net">.net ($11.99)</option>
+                <option value=".org">.org ($12.99)</option>
+                <option value=".cloud">.cloud ($4.99)</option>
+                <option value=".tech">.tech ($3.99)</option>
+                <option value=".xyz">.xyz ($1.99)</option>
+              </select>
+
+              <button type="submit" class="search-submit-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <span>Search Domain</span>
+              </button>
+            </form>
+
+            <!-- Quick TLD Extension Pills -->
+            <div class="popular-tlds-row">
+              <span class="tld-pill-label">Hot Deals:</span>
+              <div class="tld-pill active" data-tld=".com">
+                <span class="tld-name">.com</span>
+                <span class="tld-price" data-usd="9.99">$9.99</span>
+              </div>
+              <div class="tld-pill" data-tld=".ai">
+                <span class="tld-name">.ai</span>
+                <span class="tld-price" data-usd="49.99">$49.99</span>
+                <span class="badge badge-hot" style="font-size:0.6rem; padding:1px 5px;">Trending</span>
+              </div>
+              <div class="tld-pill" data-tld=".io">
+                <span class="tld-name">.io</span>
+                <span class="tld-price" data-usd="29.99">$29.99</span>
+              </div>
+              <div class="tld-pill" data-tld=".cloud">
+                <span class="tld-name">.cloud</span>
+                <span class="tld-price" data-usd="4.99">$4.99</span>
+                <span class="badge badge-success" style="font-size:0.6rem; padding:1px 5px;">-70%</span>
+              </div>
+              <div class="tld-pill" data-tld=".xyz">
+                <span class="tld-name">.xyz</span>
+                <span class="tld-price" data-usd="1.99">$1.99</span>
+              </div>
+            </div>
+
+            <!-- Dynamic Search Result Panel -->
+            <div class="domain-results-panel" id="domain-results-panel">
+              <div id="main-search-result"></div>
+              
+              <div style="margin-top: 1.25rem;">
+                <div style="font-size:0.85rem; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.5rem;">
+                  Recommended Alternative Extensions:
+                </div>
+                <div class="suggestions-list" id="suggestions-grid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column Visual -->
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img 
+              src="assets/images/hero_datacenter.jpg" 
+              alt="DP Host Next-Gen Datacenter Infrastructure" 
+              width="600" 
+              height="420"
+              loading="eager"
+            >
+            <div class="hero-floating-stat">
+              <div class="stat-item">
+                <div class="stat-val">99.99%</div>
+                <div class="stat-label">Uptime SLA</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-val">&lt; 180ms</div>
+                <div class="stat-label">Global TTFB</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-val">3.2M+</div>
+                <div class="stat-label">Domains Hosted</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust Badges & Highlights Strip -->
+      <div class="container">
+        <div class="highlights-bar">
+          <div class="highlight-item">
+            <div class="highlight-icon">⚡</div>
+            <div class="highlight-text">
+              <h4>LiteSpeed Enterprise</h4>
+              <p>Up to 300% faster PHP processing & LSCache</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🔒</div>
+            <div class="highlight-text">
+              <h4>Free WHOIS Privacy</h4>
+              <p>Your identity & contact info guarded forever</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🛡️</div>
+            <div class="highlight-text">
+              <h4>DDoS Shield & WAF</h4>
+              <p>Real-time edge threat mitigation up to 2.5Tbps</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🚀</div>
+            <div class="highlight-text">
+              <h4>Zero-Downtime Migration</h4>
+              <p>Free white-glove site transfer by our engineers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOSTING PRICING SECTION ==================== -->
+    <section class="section" id="hosting-plans">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">High Performance Cloud</div>
+          <h2>Scalable Web Hosting Built for Speed</h2>
+          <p>Choose an enterprise-tier cloud package with pure PCIe 4.0 NVMe storage, isolated resources, and unmetered bandwidth.</p>
+        </div>
+
+        <!-- Billing Switcher -->
+        <div class="billing-switcher-container">
+          <div class="billing-switch">
+            <div class="billing-option" data-cycle="monthly">Monthly Billing</div>
+            <div class="billing-option active" data-cycle="annual">
+              Annual (Save 25% + Free Domain)
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="pricing-grid">
+          <!-- Plan 1: Starter -->
+          <div class="pricing-card" id="plan-card-starter">
+            <div class="plan-header">
+              <span class="badge badge-primary" id="badge-starter">Save 25%</span>
+              <h3 class="plan-name">Starter Cloud</h3>
+              <p class="plan-desc">Ideal for personal blogs, portfolios, and new web projects.</p>
+            </div>
+            <div class="plan-price-wrapper">
+              <div>
+                <span class="price-amount" id="price-starter" data-usd="2.99">$2.99</span>
+                <span class="price-period" id="cycle-starter">/mo (billed annually)</span>
+              </div>
+            </div>
+            <ul class="features-list">
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>1 Website</strong></span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>25 GB NVMe</strong> High-Speed SSD</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Unmetered Bandwidth</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Free Automated SSL Certificates</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>5 Professional Email Accounts</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>1-Click WordPress Installer</span></li>
+              <li class="feature-item"><span class="feature-icon-cross">✕</span> <span style="color:var(--text-muted);">Free Domain (Requires Pro)</span></li>
+              <li class="feature-item"><span class="feature-icon-cross">✕</span> <span style="color:var(--text-muted);">Dedicated IP Address</span></li>
+            </ul>
+            <button class="btn btn-secondary" onclick="selectHostingPlan('starter')">
+              Select Starter Plan
+            </button>
+          </div>
+
+          <!-- Plan 2: Business Pro (Featured) -->
+          <div class="pricing-card featured" id="plan-card-business">
+            <div class="popular-ribbon">⭐ Most Popular - Best Value</div>
+            <div class="plan-header">
+              <span class="badge badge-success" id="badge-business">Free Domain Included</span>
+              <h3 class="plan-name">Business Cloud Pro</h3>
+              <p class="plan-desc">Maximum speed for business sites, stores, and heavy traffic.</p>
+            </div>
+            <div class="plan-price-wrapper">
+              <div>
+                <span class="price-amount" id="price-business" data-usd="6.99" style="color:var(--color-primary);">$6.99</span>
+                <span class="price-period" id="cycle-business">/mo (billed annually)</span>
+              </div>
+            </div>
+            <ul class="features-list">
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>Unlimited Websites</strong></span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>100 GB NVMe</strong> Ultra-Fast Storage</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>FREE .COM Domain</strong> (1st Year)</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>LiteSpeed Enterprise + LSCache</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Daily Automated Cloud Backups</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Unlimited Business Emails</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>2x Hardware Resource Allocation</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Free Global CDN Integration</span></li>
+            </ul>
+            <button class="btn btn-primary" onclick="selectHostingPlan('business')">
+              Deploy Business Pro
+            </button>
+          </div>
+
+          <!-- Plan 3: Turbo VPS -->
+          <div class="pricing-card" id="plan-card-vps">
+            <div class="plan-header">
+              <span class="badge badge-primary" id="badge-vps">High Compute</span>
+              <h3 class="plan-name">Turbo VPS Cloud</h3>
+              <p class="plan-desc">Dedicated CPU & RAM for developers, apps, and SaaS platforms.</p>
+            </div>
+            <div class="plan-price-wrapper">
+              <div>
+                <span class="price-amount" id="price-vps" data-usd="18.99">$18.99</span>
+                <span class="price-period" id="cycle-vps">/mo (billed annually)</span>
+              </div>
+            </div>
+            <ul class="features-list">
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>4 Dedicated vCPUs</strong> (AMD EPYC)</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>8 GB DDR5 ECC RAM</strong></span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>200 GB NVMe Gen4</strong> RAID 10</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Full Root SSH / Sudo Access</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>1 Dedicated IPv4 + /64 IPv6</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Docker & Node.js / Python ready</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Custom Firewall Rules</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Priority 24/7 DevOps Support</span></li>
+            </ul>
+            <button class="btn btn-secondary" onclick="selectHostingPlan('vps')">
+              Deploy Turbo VPS
+            </button>
+          </div>
+
+          <!-- Plan 4: Enterprise Cluster -->
+          <div class="pricing-card" id="plan-card-enterprise">
+            <div class="plan-header">
+              <span class="badge badge-primary" id="badge-enterprise">Enterprise SLA</span>
+              <h3 class="plan-name">Enterprise Cluster</h3>
+              <p class="plan-desc">Multi-node high availability cluster with 99.999% SLA guarantee.</p>
+            </div>
+            <div class="plan-price-wrapper">
+              <div>
+                <span class="price-amount" id="price-enterprise" data-usd="59.99">$59.99</span>
+                <span class="price-period" id="cycle-enterprise">/mo (billed annually)</span>
+              </div>
+            </div>
+            <ul class="features-list">
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>Multi-Region Auto-Failover</strong></span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span><strong>500 GB NVMe Cluster</strong> Storage</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>32 GB ECC RAM & 16 vCPUs</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Custom DDoS Scrubbing Center</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Dedicated Account Manager & Slack</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>PCI-DSS & HIPAA Compliant</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>Hourly Snapshot Recovery</span></li>
+              <li class="feature-item"><span class="feature-icon-check">✓</span> <span>99.999% Uptime Financial Guarantee</span></li>
+            </ul>
+            <button class="btn btn-secondary" onclick="selectHostingPlan('enterprise')">
+              Deploy Enterprise
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TLD PRICING & REGISTRAR TABLE ==================== -->
+    <section class="section" id="tld-explorer">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Domain Registrar Services</div>
+          <h2>Explore 500+ Domain Extensions</h2>
+          <p>Competitive registration and renewal rates with zero hidden renewal markups or forced upsells.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div style="display:flex; justify-content:center; gap:0.5rem; margin-bottom:2rem; flex-wrap:wrap;">
+          <button class="btn btn-secondary btn-sm tld-filter-btn active" data-category="all">All Extensions</button>
+          <button class="btn btn-secondary btn-sm tld-filter-btn" data-category="popular">Popular (.com, .net)</button>
+          <button class="btn btn-secondary btn-sm tld-filter-btn" data-category="tech">Tech & AI (.ai, .io, .cloud)</button>
+          <button class="btn btn-secondary btn-sm tld-filter-btn" data-category="ecommerce">eCommerce (.store, .shop)</button>
+          <button class="btn btn-secondary btn-sm tld-filter-btn" data-category="business">Business (.co)</button>
+        </div>
+
+        <!-- TLD Table -->
+        <div class="tld-table-wrapper">
+          <table class="tld-table">
+            <thead>
+              <tr>
+                <th>Extension</th>
+                <th>Registration (1st Yr)</th>
+                <th>Renewal Price</th>
+                <th>WHOIS Privacy</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="tld-table-body">
+              <!-- Dynamically rendered by DomainSearchEngine -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Domain Transfer Banner Component -->
+        <div class="glass-card" style="margin-top: 3.5rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap;">
+          <div style="max-width: 600px;">
+            <div class="section-tag" style="margin-bottom:0.75rem;">Switch to DP Host</div>
+            <h3 style="font-size:1.5rem; margin-bottom:0.5rem;">Transfer Your Existing Domain for Just $9.99</h3>
+            <p style="font-size:0.95rem;">
+              Keep your existing domain name, add an entire extra year of registration, and enjoy free privacy protection forever with zero disruption to your email or website.
+            </p>
+            <form id="transfer-check-form" style="display:flex; gap:0.5rem; margin-top:1.25rem; flex-wrap:wrap;">
+              <input 
+                type="text" 
+                class="form-control" 
+                id="transfer-domain-input" 
+                placeholder="Enter domain (e.g. currentsite.com)" 
+                style="max-width:320px;"
+                required
+              >
+              <button type="submit" class="btn btn-primary">
+                Check Transfer Eligibility
+              </button>
+            </form>
+            <div id="transfer-status-result" style="display:none;"></div>
+          </div>
+          <div style="text-align:right;">
+            <div style="display:flex; flex-direction:column; gap:0.75rem;">
+              <div style="display:flex; align-items:center; gap:0.5rem; color:var(--color-emerald); font-weight:600; font-size:0.9rem;">
+                ✓ 0 Downtime Transfer
+              </div>
+              <div style="display:flex; align-items:center; gap:0.5rem; color:var(--color-emerald); font-weight:600; font-size:0.9rem;">
+                ✓ +1 Free Renewal Year Included
+              </div>
+              <div style="display:flex; align-items:center; gap:0.5rem; color:var(--color-emerald); font-weight:600; font-size:0.9rem;">
+                ✓ Free DNS Management & Anycast
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GLOBAL INFRASTRUCTURE & LATENCY ==================== -->
+    <section class="section" id="infrastructure">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Global Low-Latency Edge</div>
+          <h2>Interactive Datacenter & Ping Simulator</h2>
+          <p>Select any of our 6 enterprise Tier IV datacenters to test simulated live latency and edge connectivity.</p>
+        </div>
+
+        <div class="infrastructure-panel">
+          <!-- Left: Location Selectors -->
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 1.25rem;">Choose Datacenter Location:</h3>
+            <div class="locations-grid">
+              <button class="location-btn active" data-dc="nyc">
+                <div class="location-info">
+                  <span class="location-flag">🇺🇸</span>
+                  <div>
+                    <div class="location-name">New York, USA</div>
+                    <div class="location-sub">US-East (Tier IV)</div>
+                  </div>
+                </div>
+                <div class="ping-display">~12ms</div>
+              </button>
+
+              <button class="location-btn" data-dc="sfo">
+                <div class="location-info">
+                  <span class="location-flag">🇺🇸</span>
+                  <div>
+                    <div class="location-name">Silicon Valley</div>
+                    <div class="location-sub">US-West (Tier IV)</div>
+                  </div>
+                </div>
+                <div class="ping-display">~18ms</div>
+              </button>
+
+              <button class="location-btn" data-dc="fra">
+                <div class="location-info">
+                  <span class="location-flag">🇩🇪</span>
+                  <div>
+                    <div class="location-name">Frankfurt</div>
+                    <div class="location-sub">EU-Central (Tier IV)</div>
+                  </div>
+                </div>
+                <div class="ping-display">~22ms</div>
+              </button>
+
+              <button class="location-btn" data-dc="lon">
+                <div class="location-info">
+                  <span class="location-flag">🇬🇧</span>
+                  <div>
+                    <div class="location-name">London</div>
+                    <div class="location-sub">UK / EU-West</div>
+                  </div>
+                </div>
+                <div class="ping-display">~24ms</div>
+              </button>
+
+              <button class="location-btn" data-dc="sin">
+                <div class="location-info">
+                  <span class="location-flag">🇸🇬</span>
+                  <div>
+                    <div class="location-name">Singapore</div>
+                    <div class="location-sub">APAC-Central</div>
+                  </div>
+                </div>
+                <div class="ping-display">~34ms</div>
+              </button>
+
+              <button class="location-btn" data-dc="tky">
+                <div class="location-info">
+                  <span class="location-flag">🇯🇵</span>
+                  <div>
+                    <div class="location-name">Tokyo</div>
+                    <div class="location-sub">Asia-East</div>
+                  </div>
+                </div>
+                <div class="ping-display">~39ms</div>
+              </button>
+            </div>
+
+            <!-- Comparative Speed Benchmark -->
+            <div class="comparison-card">
+              <h4 style="margin-bottom: 1rem;">Time to First Byte (TTFB) Comparison:</h4>
+              <div class="benchmark-row">
+                <div class="benchmark-info">
+                  <span>🚀 DP Host (NVMe + LiteSpeed)</span>
+                  <span style="color:var(--color-emerald);">180 ms</span>
+                </div>
+                <div class="benchmark-track">
+                  <div class="benchmark-fill-dp"></div>
+                </div>
+              </div>
+              <div class="benchmark-row" style="margin-bottom:0;">
+                <div class="benchmark-info">
+                  <span>🐌 Industry Average (Apache / Standard SSD)</span>
+                  <span style="color:var(--color-rose);">790 ms</span>
+                </div>
+                <div class="benchmark-track">
+                  <div class="benchmark-fill-standard"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Radar & Active Node Telemetry -->
+          <div class="radar-simulation">
+            <div style="margin-bottom:1.5rem; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-glow); max-height:160px; position:relative;">
+              <img src="assets/images/domain_network.jpg" alt="DP Anycast Global Edge Domain Network" style="width:100%; height:160px; object-fit:cover;">
+              <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(12,18,34,0.92) 10%, transparent 80%);"></div>
+              <div style="position:absolute; bottom:10px; left:16px; display:flex; align-items:center; gap:0.5rem; font-weight:700; font-size:0.85rem; color:#fff;">
+                <span class="pulse-dot"></span> 150+ Anycast PoPs Across 6 Continents
+              </div>
+            </div>
+
+            <div class="radar-ring">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="12" y1="2" x2="12" y2="4"></line>
+                <line x1="12" y1="20" x2="12" y2="22"></line>
+                <line x1="2" y1="12" x2="4" y2="12"></line>
+                <line x1="20" y1="12" x2="22" y2="12"></line>
+              </svg>
+            </div>
+
+            <div style="font-size:0.85rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em;">
+              Current Live Latency Telemetry:
+            </div>
+            <div id="live-ping-val" style="font-size:2.4rem; font-weight:800; font-family:var(--font-heading); color:var(--color-primary); margin:0.35rem 0;">
+              12 ms
+            </div>
+            
+            <div style="display:flex; justify-content:space-around; background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle); margin-top:1.5rem; text-align:left;">
+              <div>
+                <div style="font-size:0.75rem; color:var(--text-muted);">Selected Cluster:</div>
+                <div id="active-dc-name" style="font-weight:700; font-size:0.95rem;">New York, USA</div>
+                <div id="active-dc-region" style="font-size:0.8rem; color:var(--color-primary);">US East</div>
+              </div>
+              <div>
+                <div style="font-size:0.75rem; color:var(--text-muted);">SLA Uptime:</div>
+                <div id="active-dc-uptime" style="font-weight:700; font-size:0.95rem; color:var(--color-emerald);">99.998%</div>
+                <div id="active-dc-tier" style="font-size:0.8rem; color:var(--text-secondary);">Tier IV Certified</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CUSTOMER TESTIMONIALS ==================== -->
+    <section class="section" style="background: rgba(15, 23, 42, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Client Reviews</div>
+          <h2>Trusted by 45,000+ Founders & Engineers</h2>
+          <p>Rated 4.9/5 on Trustpilot and verified by enterprise developers across the globe.</p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.75rem;">
+          <div class="glass-card">
+            <div style="color:var(--color-amber); font-size:1.15rem; margin-bottom:0.75rem;">★★★★★</div>
+            <p style="font-size:0.95rem; font-style:italic; margin-bottom:1.25rem;">
+              "We migrated 18 WordPress client sites and 4 Node.js apps to DP Host in under 3 hours with zero downtime. 
+              Our average TTFB dropped from 740ms to 160ms. Their support engineers are actually technical pros."
+            </p>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg, #00d2ff, #6366f1); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1rem; color:#fff;">
+                AK
+              </div>
+              <div>
+                <div style="font-weight:700; font-size:0.95rem;">Alex Vance</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">CTO at Vertex Interactive</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <div style="color:var(--color-amber); font-size:1.15rem; margin-bottom:0.75rem;">★★★★★</div>
+            <p style="font-size:0.95rem; font-style:italic; margin-bottom:1.25rem;">
+              "Finding and buying our .ai and .com brand domains through DP Host was instant. 
+              Unlike other registrars that sneak $30 WHOIS fees at checkout, everything with DP Host was transparent and free."
+            </p>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg, #8b5cf6, #ec4899); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1rem; color:#fff;">
+                SR
+              </div>
+              <div>
+                <div style="font-weight:700; font-size:0.95rem;">Sophia Ramirez</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Co-Founder at NeuralFlow</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <div style="color:var(--color-amber); font-size:1.15rem; margin-bottom:0.75rem;">★★★★★</div>
+            <p style="font-size:0.95rem; font-style:italic; margin-bottom:1.25rem;">
+              "The Turbo VPS with NVMe storage handled our Black Friday spike of 120,000 visitors without breaking a sweat. 
+              Zero slowdowns, zero 504 gateway errors. Truly best-in-class cloud hosting."
+            </p>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg, #10b981, #00d2ff); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1rem; color:#fff;">
+                DL
+              </div>
+              <div>
+                <div style="font-weight:700; font-size:0.95rem;">David Lindqvist</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Head of Infra at NordKicks</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ACCORDION FAQ SECTION ==================== -->
+    <section class="section" id="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Got Questions?</div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about registering domains, hosting websites, and getting started with DP Host.</p>
+        </div>
+
+        <div class="faq-grid">
+          <!-- Item 1 -->
+          <details class="faq-item" name="faq" open>
+            <summary class="faq-summary">How fast will my domain registration and hosting be active?</summary>
+            <div class="faq-content">
+              Your domain registration is submitted instantly to the global registry upon checkout, with Anycast DNS propagating worldwide in under 15 minutes. 
+              All web hosting plans and VPS instances are automatically provisioned via our automated orchestration system within 60 seconds.
+            </div>
+          </details>
+
+          <!-- Item 2 -->
+          <details class="faq-item" name="faq">
+            <summary class="faq-summary">Is WHOIS Privacy really 100% free forever?</summary>
+            <div class="faq-content">
+              Yes, absolutely. We believe privacy is a fundamental digital right. Unlike legacy domain registrars who charge $10 to $20 annually, DP Host includes comprehensive WHOIS Privacy Guard at zero extra cost for all eligible top-level domains.
+            </div>
+          </details>
+
+          <!-- Item 3 -->
+          <details class="faq-item" name="faq">
+            <summary class="faq-summary">How does the free website migration service work?</summary>
+            <div class="faq-content">
+              Once you sign up for any hosting plan, simply open a migration ticket in your Client Portal and provide your current cPanel, Plesk, or FTP credentials. 
+              Our senior system engineers will migrate all your files, databases, and emails with zero downtime.
+            </div>
+          </details>
+
+          <!-- Item 4 -->
+          <details class="faq-item" name="faq">
+            <summary class="faq-summary">Can I upgrade or downgrade my hosting plan later?</summary>
+            <div class="faq-content">
+              Yes! You can scale seamlessly from Starter Cloud to Business Pro or Turbo VPS with just a single click inside your dashboard. 
+              Your billing will be prorated automatically with no downtime or service disruption.
+            </div>
+          </details>
+
+          <!-- Item 5 -->
+          <details class="faq-item" name="faq">
+            <summary class="faq-summary">What is your refund and money-back guarantee policy?</summary>
+            <div class="faq-content">
+              We offer an unconditional 30-day money-back guarantee on all cloud hosting plans. 
+              If you aren't completely delighted with the speed and reliability, you can request a full refund within 30 days—no questions asked.
+            </div>
+          </details>
+
+          <!-- Item 6 -->
+          <details class="faq-item" name="faq">
+            <summary class="faq-summary">Do you support WordPress, Node.js, and Python?</summary>
+            <div class="faq-content">
+              Yes! We provide 1-click installation for WordPress, Joomla, and Magento, as well as native runtime support for Node.js, Python, PHP 8.1 - 8.3, Ruby, and Git deployment integrations.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="logo-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span>DP HOST</span>
+              <span>Cloud & Domains</span>
+            </div>
+          </div>
+          <p style="font-size:0.9rem; line-height:1.6; margin-bottom:1.5rem;">
+            DP Host is an enterprise cloud hosting provider and accredited domain registrar delivering next-generation digital infrastructure, Anycast DNS, and 24/7 engineer support.
+          </p>
+          <div style="font-size:0.85rem; color:var(--color-emerald); display:flex; align-items:center; gap:0.5rem;">
+            <span class="pulse-dot"></span> 24/7/365 Global Network NOC Active
+          </div>
+        </div>
+
+        <!-- Col 2: Domains -->
+        <div class="footer-col">
+          <h4>Domains</h4>
+          <ul class="footer-links">
+            <li><a href="#domains-section">Register Domain</a></li>
+            <li><a href="#tld-explorer">Transfer Domain</a></li>
+            <li><a href="#tld-explorer">.COM Domains ($9.99)</a></li>
+            <li><a href="#tld-explorer">.AI Domains ($49.99)</a></li>
+            <li><a href="#tld-explorer">.IO Tech Domains</a></li>
+            <li><a href="#tld-explorer">WHOIS Privacy Guard</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hosting -->
+        <div class="footer-col">
+          <h4>Hosting & Cloud</h4>
+          <ul class="footer-links">
+            <li><a href="#hosting-plans">Cloud Web Hosting</a></li>
+            <li><a href="#hosting-plans">Business Cloud Pro</a></li>
+            <li><a href="#hosting-plans">Turbo VPS Cloud</a></li>
+            <li><a href="#hosting-plans">Enterprise Clusters</a></li>
+            <li><a href="#infrastructure">LiteSpeed Acceleration</a></li>
+            <li><a href="#infrastructure">Global Datacenters</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Support -->
+        <div class="footer-col">
+          <h4>Support & Help</h4>
+          <ul class="footer-links">
+            <li><a href="javascript:void(0)" onclick="document.getElementById('open-login-btn').click()">Client Portal</a></li>
+            <li><a href="#faq-section">Knowledge Base</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('chat-fab').click()">Live Chat Support</a></li>
+            <li><a href="#infrastructure">Network Status SLA</a></li>
+            <li><a href="#faq-section">Refund Policy</a></li>
+            <li><a href="#faq-section">Security & Compliance</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: Newsletter & Contact -->
+        <div class="footer-col">
+          <h4>Stay Informed</h4>
+          <p style="font-size:0.85rem; margin-bottom:1rem;">
+            Subscribe to our weekly infrastructure updates, security bulletins, and domain drop promos.
+          </p>
+          <form onsubmit="event.preventDefault(); CartEngine.showToast('Thank you for subscribing to DP Host updates!', 'success'); this.reset();" style="display:flex; gap:0.4rem;">
+            <input type="email" class="form-control" placeholder="developer@domain.com" style="font-size:0.85rem; padding:0.6rem 0.8rem;" required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+          <div style="margin-top:1.25rem;">
+            <span style="font-size:0.8rem; color:var(--text-muted);">Accepted Payment Methods:</span>
+            <div class="payment-badges" style="margin-top:0.4rem;">
+              <span>💳</span> <span>🅿️</span> <span>₿</span> <span>🍎</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 DP Web Hosting & Domain Registrar Company. All rights reserved.
+        </div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">ICANN Registrant Rights</a>
+          <a href="#">SLA Agreement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== CART DRAWER ==================== -->
+  <div class="cart-drawer-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping Cart Drawer">
+    <div class="cart-header">
+      <div class="cart-title">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <span>Your Order Cart</span>
+      </div>
+      <button class="cart-close-btn" id="close-cart-btn" aria-label="Close Shopping Cart">&times;</button>
+    </div>
+
+    <div class="cart-body">
+      <!-- Empty State -->
+      <div class="cart-empty" id="cart-empty-state" style="display:none;">
+        <div class="cart-empty-icon">🛒</div>
+        <h4>Your cart is empty</h4>
+        <p style="font-size:0.85rem; margin-top:0.5rem;">Search for a domain above or choose a high-performance cloud hosting plan.</p>
+      </div>
+
+      <!-- Itemized List -->
+      <div id="cart-items-list"></div>
+
+      <!-- Free Add-ons Banner -->
+      <div class="cart-addons">
+        <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.4rem; color:var(--color-primary);">
+          ✨ Included Free Protection:
+        </div>
+        <div class="cart-addon-item">
+          <span>WHOIS Identity Guard</span>
+          <span style="color:var(--color-emerald); font-weight:700;">FREE FOREVER</span>
+        </div>
+        <div class="cart-addon-item">
+          <span>Tier-IV Anycast DNS Engine</span>
+          <span style="color:var(--color-emerald); font-weight:700;">INCLUDED</span>
+        </div>
+        <div class="cart-addon-item">
+          <span>Automated SSL Certificates</span>
+          <span style="color:var(--color-emerald); font-weight:700;">FREE</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Footer & Checkout -->
+    <div class="cart-footer" id="cart-footer-section">
+      <!-- Promo Code Input -->
+      <form class="coupon-box" id="cart-coupon-form">
+        <input type="text" class="form-control" id="coupon-input" placeholder="Promo code (e.g. LAUNCH2026)" style="font-size:0.85rem; padding:0.5rem 0.75rem;">
+        <button type="submit" class="btn btn-secondary btn-sm">Apply</button>
+      </form>
+
+      <div class="cart-summary-row">
+        <span>Subtotal</span>
+        <span id="cart-subtotal" style="font-weight:600;">$0.00</span>
+      </div>
+      <div class="cart-summary-row" id="cart-discount-row" style="display:none; color:var(--color-emerald);">
+        <span>Promotional Discount</span>
+        <span id="cart-discount" style="font-weight:700;">-$0.00</span>
+      </div>
+      <div class="cart-summary-row">
+        <span>Cloud Regulatory Tax (5%)</span>
+        <span id="cart-tax">$0.00</span>
+      </div>
+      <div class="cart-summary-row total">
+        <span>Total Due</span>
+        <span id="cart-total" style="color:var(--color-primary);">$0.00</span>
+      </div>
+
+      <button class="btn btn-primary" id="cart-checkout-btn" style="width:100%; margin-top:1.25rem;">
+        Proceed to Secure Checkout &rarr;
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==================== NATIVE DIALOG MODALS ==================== -->
+  
+  <!-- 1. CHECKOUT MODAL -->
+  <dialog id="checkout-modal" aria-labelledby="checkout-title">
+    <div class="modal-header">
+      <h3 id="checkout-title" style="display:flex; align-items:center; gap:0.5rem;">
+        <span>🔒</span> Secure Cloud Provisioning
+      </h3>
+      <button class="modal-close" id="close-checkout-btn" aria-label="Close Checkout">&times;</button>
+    </div>
+
+    <div id="checkout-modal-summary"></div>
+
+    <form id="checkout-form">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
+        <div>
+          <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">First Name</label>
+          <input type="text" class="form-control" placeholder="John" autocomplete="given-name" required>
+        </div>
+        <div>
+          <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">Last Name</label>
+          <input type="text" class="form-control" placeholder="Doe" autocomplete="family-name" required>
+        </div>
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">Email Address (For CPanel & Domain Credentials)</label>
+        <input type="email" class="form-control" placeholder="john.doe@company.com" autocomplete="email" inputmode="email" required>
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">Preferred Server Datacenter Region</label>
+        <select class="form-control" style="cursor:pointer;">
+          <option value="us-east">🇺🇸 US East (New York) - Optimal Americas</option>
+          <option value="us-west">🇺🇸 US West (Silicon Valley)</option>
+          <option value="eu-central">🇩🇪 EU Central (Frankfurt) - Optimal Europe</option>
+          <option value="eu-west">🇬🇧 UK West (London)</option>
+          <option value="apac">🇸🇬 APAC (Singapore) - Optimal Asia</option>
+          <option value="asia">🇯🇵 Asia East (Tokyo)</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom:1.5rem;">
+        <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:6px;">Select Payment Method</label>
+        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:0.5rem;">
+          <label style="background:var(--bg-card); border:1px solid var(--border-glow); padding:0.6rem; border-radius:var(--radius-sm); font-size:0.8rem; text-align:center; cursor:pointer;">
+            <input type="radio" name="payment" value="card" checked>
+            <div style="margin-top:2px; font-weight:600;">Card</div>
+          </label>
+          <label style="background:var(--bg-card); border:1px solid var(--border-subtle); padding:0.6rem; border-radius:var(--radius-sm); font-size:0.8rem; text-align:center; cursor:pointer;">
+            <input type="radio" name="payment" value="paypal">
+            <div style="margin-top:2px; font-weight:600;">PayPal</div>
+          </label>
+          <label style="background:var(--bg-card); border:1px solid var(--border-subtle); padding:0.6rem; border-radius:var(--radius-sm); font-size:0.8rem; text-align:center; cursor:pointer;">
+            <input type="radio" name="payment" value="crypto">
+            <div style="margin-top:2px; font-weight:600;">Crypto</div>
+          </label>
+          <label style="background:var(--bg-card); border:1px solid var(--border-subtle); padding:0.6rem; border-radius:var(--radius-sm); font-size:0.8rem; text-align:center; cursor:pointer;">
+            <input type="radio" name="payment" value="upi">
+            <div style="margin-top:2px; font-weight:600;">UPI / Bank</div>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="checkout-pay-btn" style="width:100%; padding:0.85rem;">
+        Complete Order & Provision Services
+      </button>
+      
+      <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.75rem;">
+        🔒 256-Bit SSL Encrypted Checkout • 30-Day Money-Back Guarantee
+      </p>
+    </form>
+  </dialog>
+
+  <!-- 2. CLIENT LOGIN MODAL -->
+  <dialog id="login-modal" aria-labelledby="login-title">
+    <div class="modal-header">
+      <h3 id="login-title">Client Portal Login</h3>
+      <button class="modal-close" id="close-login-btn" aria-label="Close Login">&times;</button>
+    </div>
+
+    <form onsubmit="event.preventDefault(); CartEngine.showToast('Login successful! Redirecting to cPanel dashboard...', 'success'); setTimeout(() => document.getElementById('login-modal').close(), 800);">
+      <div style="margin-bottom:1rem;">
+        <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">Account Email</label>
+        <input type="email" class="form-control" placeholder="client@domain.com" autocomplete="email" inputmode="email" required>
+      </div>
+
+      <div style="margin-bottom:1.25rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+          <label style="font-size:0.8rem; font-weight:600; color:var(--text-secondary);">Password</label>
+          <a href="javascript:void(0)" onclick="CartEngine.showToast('Password reset link dispatched.', 'info')" style="font-size:0.75rem; color:var(--color-primary);">Forgot?</a>
+        </div>
+        <input type="password" class="form-control" placeholder="••••••••••••" autocomplete="current-password" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="width:100%; padding:0.85rem;">
+        Sign In to Portal
+      </button>
+
+      <div style="text-align:center; margin-top:1.25rem; font-size:0.85rem; color:var(--text-muted);">
+        Don't have an account? 
+        <a href="#domains-section" onclick="document.getElementById('login-modal').close()" style="color:var(--color-primary); font-weight:600;">Register a domain or hosting plan</a> to get started.
+      </div>
+    </form>
+  </dialog>
+
+  <!-- ==================== FLOATING LIVE SUPPORT CHAT ==================== -->
+  <div class="chat-fab" id="chat-fab" aria-label="Open Live Support Chat" title="Chat with Hosting Expert">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </div>
+
+  <div class="chat-window" id="chat-window">
+    <div class="chat-head">
+      <div style="display:flex; align-items:center; gap:0.6rem;">
+        <div style="width:32px; height:32px; border-radius:50%; background:var(--color-primary); display:flex; align-items:center; justify-content:center; color:#060911; font-weight:800; font-size:0.85rem;">
+          DP
+        </div>
+        <div>
+          <div style="font-size:0.9rem; font-weight:700; color:#fff;">DP Host AI Assistant</div>
+          <div style="font-size:0.7rem; color:var(--color-emerald); display:flex; align-items:center; gap:4px;">
+            <span class="pulse-dot" style="width:6px; height:6px;"></span> Online • Instant Answers
+          </div>
+        </div>
+      </div>
+      <button id="chat-close" style="background:transparent; color:#fff; cursor:pointer; font-size:1.25rem;">&times;</button>
+    </div>
+
+    <div class="chat-messages" id="chat-messages">
+      <div class="chat-msg bot">
+        Hello! 👋 Welcome to DP Web Hosting & Domains. Looking to register a new domain name, or need help choosing the right hosting plan for your project?
+      </div>
+    </div>
+
+    <form class="chat-input-bar" id="chat-form">
+      <input 
+        type="text" 
+        class="form-control" 
+        id="chat-input" 
+        placeholder="Ask anything (e.g. migration, refund, WP)..." 
+        style="font-size:0.85rem; padding:0.5rem 0.75rem;"
+      >
+      <button type="submit" class="btn btn-primary btn-sm" style="padding:0.5rem 0.8rem;">
+        Send
+      </button>
+    </form>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/cart.js"></script>
+  <script src="js/domain-search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
